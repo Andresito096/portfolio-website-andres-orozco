@@ -36,6 +36,8 @@ import profilePhoto from './assets/profile.png'
             my knowledge and skills in the field of software development. 
             I enjoy working on challenging projects that allow me to grow 
             as a developer and contribute to innovative solutions.
+            I am currently pursuing an associates degree of Applied Sciences
+            in Information Technology & Systems.
           </p>
         </div>
 

@@ -58,7 +58,9 @@ main {
   align-items: center;
 }
 
-/* Home Page Section */
+/* ============================================
+Home Page Section 
+============================================ */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -158,3 +160,260 @@ footer p {
     padding: 20px 10px;
   }
 }
+
+/* About Page Section */
+.about-page {
+  display: block;
+  padding: 60px 20px;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* About Page Introduction */
+.about-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-intro h1 {
+  font-size: 42px;
+  color: #a78bfa;
+  margin-bottom: 20px;
+}
+
+.about-intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #cbd5e1;
+  font-size: 17px;
+}
+
+/* About Page Sections */
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  font-size: 26px;
+  color: #a78bfa;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #3b3454;
+}
+
+.about-section p {
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 15px;
+}
+
+/* Technical Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Individual Skill Card */
+.skill-card {
+  background-color: #1e1b2e;
+  border: 1px solid #3b3454;
+  border-radius: 12px;
+  padding: 25px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: #8b5cf6;
+}
+
+.skill-card h3 {
+  color: #a78bfa;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  margin-bottom: 0;
+}
+
+/* Responsive About Page */
+@media (max-width:768px) {
+
+  .about-page {
+    padding: 40px 20px;
+  }
+
+  .about-intro h1 {
+    font-size: 32px;
+  }
+
+  .about-intro p {
+    font-size: 16px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .about-section h2 {
+    font-size: 23px;
+  }
+}
+
+/* ============================================
+Portfolio Page 
+============================================ */
+.portfolio-page {
+  display: block;
+  padding: 60px 20px;
+}
+
+.portfolio-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Portfolio Page Introduction */
+.portfolio-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-intro h1 {
+  font-size: 42px;
+  color: #a78bfa;
+  margin-bottom: 20px;
+}
+
+.portfolio-intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #cbd5e1;
+  font-size: 17px;
+}
+
+/* Repository Grid */
+.repository-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+
+/* Repository Cards */
+.repository-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b2e;
+  border: 1px solid #3b3454;
+  border-radius: 12px;
+  padding: 25px;
+  min-width: 0;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.repository-card:hover {
+  transform: translateY(-5px);
+  border-color: #8b5cf6;
+}
+
+/* Repository Name & Links */
+.repository-card h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  overflow-wrap: anywhere;
+}
+
+.repository-card h2 a {
+  color: #a78bfa;
+  text-decoration: none;
+}
+
+.repository-card h2 a:hover {
+  color: #c4b5fd;
+  text-decoration: underline;
+}
+
+/* Repository Description */
+.repository-card p {
+  margin-bottom: 25px;
+  color: #cbd5e1;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+/* Language and Updated Date */
+.repository-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid #3b3454;
+  color: #a5a3b5;
+  font-size: 14px;
+}
+
+/* Loading and Error States */
+.portfolio-message {
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 18px;
+  padding: 40px 20px;
+}
+
+/* Responsive Portfolio Page */
+@media (max-width:768px) {
+
+  .portfolio-page {
+    padding: 40px 20px;
+  }
+
+  .portfolio-intro h1 {
+    font-size: 32px;
+  }
+
+  .portfolio-intro p {
+    font-size: 16px;
+  }
+
+  .repository-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .repository-card {
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
